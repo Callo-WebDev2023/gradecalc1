@@ -1,23 +1,31 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
 .container{
-    border: 2px solid black;
+    
     height: 100vh;
+    overflow: auto;
 }
 .left{
-    border:2px solid black;
+    margin-top: 150px;
+   
 }
-.right{
-    border: 2px solid black;
+.left input{
+    width: 400px;
+    padding: 5px;
+}
+
+
+table{
+margin-top: 240px;
+margin-left: 50px;
+width: 300px;
+}
+
+.right table tr td {
+    border:2px solid black;
+    padding: 5px;
 }

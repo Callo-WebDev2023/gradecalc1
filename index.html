@@ -8,17 +8,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
     
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8 left">left</div>
-            <div class="col-12 col-md-4 right">right</div>
+            <div class="col-12 col-md-8 left">
+              <input type="number" id="math" class="form-control" placeholder="math"><br />
+              <input type="number" id="physics" class="form-control" placeholder="physics"><br />
+              <input type="number" id="PE" class="form-control" placeholder="PE"><br />
+              <input type="number" id="Computer Science" class="form-control" placeholder="CompSci"><br />
+              <input type="number" id="Science" class="form-control" placeholder="Sci"><br />
+              <button type="button" class="btn btn-success" onclick="getres()">Calculate</button>
+            </div>
+              <div class="col-12 col-md-4 right">
+                <table>
+                  <tr>
+                    <td>Total Marks</td>
+                    <td>500</td>
+                  </tr>
+                  <tr>
+                    <td>Obtain Marks</td>
+                    <td id="obt"></td>
+                  </tr>
+                  <tr>
+                    <td>Percentage</td>
+                    <td id="per"></td>
+                  </tr>
+                  <tr>
+                    <td>Grade</td>
+                    <td id="grade"></td>
+                  </tr>
+                </table>
+              </div>
             
         </div>
-        <video autoplay muted loop id="myVideo">
-           <source src="bloodybottoms.mp4" type="video/mp4">
-         </video>
+ 
     </div>
 
     <script src="app.js"></script>
