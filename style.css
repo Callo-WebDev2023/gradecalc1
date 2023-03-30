@@ -7,22 +7,23 @@
 .container{
     
     height: 100vh;
-    overflow: auto;
+    
 }
 .left{
+    border: solid black 2px;
     margin-top: 150px;
-   
 }
 .left input{
     width: 400px;
     padding: 5px;
 }
+.right{border: solid black 2px;}
 
 
 table{
-margin-top: 240px;
 margin-left: 50px;
 width: 300px;
+margin-top: 90px;
 }
 
 .right table tr td {
